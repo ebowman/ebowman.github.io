@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FlöFuel Support</title>
+<style>
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 20px;
+  color: #333;
+  line-height: 1.6;
+}
+h1 { font-size: 1.8em; }
+h2 { font-size: 1.3em; margin-top: 2em; }
+h3 { font-size: 1.1em; margin-top: 1.5em; }
+a { color: #007aff; }
+details { margin: 0.5em 0; }
+summary { cursor: pointer; font-weight: 600; }
+details > p, details > ul { margin-left: 1em; }
+</style>
+</head>
+<body>
+
+<h1>FlöFuel Support</h1>
+
+<h2>About FlöFuel</h2>
+<p>FlöFuel is a cycling nutrition app for iPhone and Apple Watch. It calculates when and what to eat and drink during rides based on your intensity, duration, temperature, and body weight, then alerts you with haptic notifications so you never bonk.</p>
+
+<h2>Getting Started</h2>
+<ol>
+<li>Open FlöFuel and set up your <strong>Pantry</strong> with the products you carry on rides (gels, drink mix, salt tablets).</li>
+<li>Configure your <strong>Bottles</strong> &mdash; how many and what size.</li>
+<li>Use <strong>Just Ride</strong> for ad-hoc rides, or create a <strong>Program</strong> for saved ride configurations.</li>
+<li>Set your duration, intensity, and weather. FlöFuel shows your fueling rates and a detailed timeline.</li>
+<li>Tap <strong>Start Ride</strong> and follow the fueling alerts on your watch or phone.</li>
+</ol>
+
+<h2>Key Features</h2>
+
+<h3>Adaptive Fueling</h3>
+<p>FlöFuel calculates carb, hydration, and sodium targets from sports nutrition research. Harder efforts and hotter conditions automatically increase your targets. If you know your FTP (functional threshold power), enter it in Settings for precision intensity-based calculations.</p>
+
+<h3>Full-Ride Planning</h3>
+<p>FlöFuel plans your entire ride, even when your bottles can't carry enough for the full duration. For long rides, the plan includes <strong>refill opportunities</strong> &mdash; approximate times when you should refill your bottles. The Bring list shows total supplies needed including extra drink mix packets for refills.</p>
+
+<h3>Separate Eating and Drinking Rhythms</h3>
+<p>Your body processes liquids and solids differently. FlöFuel spaces drink reminders at your alert cadence (typically every 15 minutes) but spaces gels further apart based on your carb target and gel size. The minimum gel interval (default 20 minutes) prevents back-to-back gels that cause nausea. You can adjust this in Fine-Tune Fueling.</p>
+
+<h3>Ride Kits</h3>
+<p>Create saved ride kits for different types of rides &mdash; race day, training, indoor. Each kit specifies which products you carry and can have its own bottle setup.</p>
+
+<h3>Safety Guards</h3>
+<p>FlöFuel includes three layers of consumption safety:</p>
+<ul>
+<li><strong>Sodium Guard</strong> &mdash; warns during rides when sodium consumed exceeds your configured threshold (default 1.5&times; target). Configurable in Fine-Tune Fueling.</li>
+<li><strong>Caffeine Tracking</strong> &mdash; tracks cumulative caffeine and warns when approaching your limit (default 400mg per FDA/EFSA guidelines). Configurable, with a weight-based option (3 mg/kg).</li>
+<li><strong>Per-Product Daily Limits</strong> &mdash; respects manufacturer-recommended maximums (e.g., SaltStick Caps: max 10/day). You can set your own limits on any product.</li>
+</ul>
+<p>All guards are <strong>advisory</strong> &mdash; FlöFuel warns but never prevents you from eating or drinking. For informational purposes only &mdash; not medical advice.</p>
+
+<h3>Fine-Tune Fueling</h3>
+<p>Advanced settings for experienced riders (Settings &rarr; Fine-Tune Fueling):</p>
+<ul>
+<li><strong>Gel Spacing</strong> &mdash; minimum time between gels (15&ndash;45 min, default 20)</li>
+<li><strong>GI Cap</strong> &mdash; maximum carbs per 15-minute window (prevents large boluses)</li>
+<li><strong>Gentle Start</strong> &mdash; reduces carb intake in the first part of your ride</li>
+<li><strong>Finishing Window</strong> &mdash; stops carb intake before ride end</li>
+<li><strong>Sodium Guard</strong> &mdash; sodium overshoot warning threshold</li>
+<li><strong>Caffeine Limit</strong> &mdash; personal caffeine ceiling (standard or weight-based)</li>
+</ul>
+
+<h3>Live Session Features</h3>
+<ul>
+<li><strong>Consume / Skip / Snooze</strong> &mdash; confirm, pass, or delay each fueling alert</li>
+<li><strong>Automatic Extensions</strong> &mdash; ride longer than planned and the fueling plan extends automatically</li>
+<li><strong>Missed Fuel Recovery</strong> &mdash; missed fuel is redistributed across upcoming stops</li>
+<li><strong>Emergency Alert</strong> &mdash; 3 consecutive missed fuel stops triggers a stronger alert</li>
+<li><strong>Trust Mode</strong> &mdash; assumes you eat on schedule without confirmation taps (for gloves/technical terrain)</li>
+</ul>
+
+<h3>Session Summary</h3>
+<p>After each ride, FlöFuel shows how closely you followed the plan: carb, hydration, and sodium compliance percentages, caffeine consumed, sodium guard activity, and recovery recommendations.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<details>
+<summary>Why does FlöFuel ask for location access?</summary>
+<p>FlöFuel uses your approximate location (city-level only) to check the current temperature via Apple Weather. Hot weather increases your hydration and sodium needs. You can deny location access and set the temperature manually.</p>
+</details>
+
+<details>
+<summary>Why does FlöFuel ask for HealthKit access?</summary>
+<p>FlöFuel can read your body weight from Apple Health to personalize hydration and sodium targets, and optionally use it for weight-based caffeine limits. This is optional &mdash; you can enter your weight manually in Settings.</p>
+</details>
+
+<details>
+<summary>Is my data shared or uploaded?</summary>
+<p>No. All data stays on your device. FlöFuel has no servers, no accounts, no analytics, and no ads. See our <a href="flofuel-privacy.html">Privacy Policy</a>.</p>
+</details>
+
+<details>
+<summary>How do I delete my data?</summary>
+<p>Uninstalling FlöFuel removes all app data from your device. There is no server-side data to delete.</p>
+</details>
+
+<details>
+<summary>The Apple Watch app is not receiving programs</summary>
+<p>Make sure both devices are nearby and the Watch app is installed. Open Settings in FlöFuel on iPhone to check pairing status. Programs sync automatically via WatchConnectivity.</p>
+</details>
+
+<details>
+<summary>I'm not getting fueling alerts</summary>
+<p>Open FlöFuel Settings and check that notifications are authorized and Time Sensitive notifications are enabled. Time Sensitive alerts are needed to break through Focus mode during rides.</p>
+</details>
+
+<details>
+<summary>Why does my plan say "refill opportunity"?</summary>
+<p>When your bottles can't carry enough fluid for the entire ride, FlöFuel plans refill opportunities at approximate times. These are advisory &mdash; refill when you find water. The Bring list includes extra drink mix packets for refills.</p>
+</details>
+
+<details>
+<summary>What do the caffeine warnings mean?</summary>
+<p>FlöFuel tracks cumulative caffeine from caffeinated gels and supplements. It warns when you approach your configured limit (default 400mg, based on FDA/EFSA guidelines for healthy adults). This is informational &mdash; not medical advice. You can adjust your personal caffeine limit in Settings &rarr; Fine-Tune Fueling.</p>
+</details>
+
+<details>
+<summary>Why are my gels spaced differently from my drink alerts?</summary>
+<p>Your stomach processes liquids faster than solids. Drink reminders come at your alert cadence (e.g., every 15 minutes), but gels are spaced based on your carb target and gel size, with a minimum interval (default 20 minutes) to prevent nausea. Adjust in Settings &rarr; Fine-Tune Fueling &rarr; Gel Spacing.</p>
+</details>
+
+<details>
+<summary>What is the sodium guard?</summary>
+<p>During rides, FlöFuel monitors your sodium intake relative to your target. If you consume significantly more than planned (default threshold: 1.5&times;), the watch shows a "Sodium well covered" annotation with a highlighted skip button. This is a gentle nudge, not a restriction.</p>
+</details>
+
+<h2>Contact &amp; Feedback</h2>
+<p>For questions, bug reports, or feature requests:</p>
+<ul>
+<li>Email: <a href="mailto:flofuel-support@boboco.ie">flofuel-support@boboco.ie</a></li>
+</ul>
+
+<h2>Privacy Policy</h2>
+<p>Read our <a href="flofuel-privacy.html">Privacy Policy</a>.</p>
+
+</body>
+</html>
